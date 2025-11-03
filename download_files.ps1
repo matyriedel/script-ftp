@@ -1,8 +1,5 @@
-# Script para descargar archivos .rar desde servidor FTP/SFTP
-# Ejecutar: .\download_files.ps1
-
 # ============================================
-# CONFIGURACIÓN - MODIFICAR ESTOS VALORES
+# CONFIGURACIÓN
 # ============================================
 $Protocol = "FTP"  # Cambiar a "SFTP" si es necesario
 $Server = "ftp.ejemplo.com"  # Dirección del servidor
@@ -12,7 +9,7 @@ $RemotePath = "/ruta/remota/archivos"  # Ruta remota donde están los archivos .
 $Port = 21  # Puerto FTP (21) o SFTP (22)
 
 # ============================================
-# NO MODIFICAR A PARTIR DE AQUÍ
+# NO MODIFICAR 
 # ============================================
 
 # Obtener el directorio donde está el script
